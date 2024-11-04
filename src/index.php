@@ -52,7 +52,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </header> 
       <div id="intro">
          <h2>Letder's hashlab</h2>
-         <p>Submit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used to geneSubmit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used to generate the hash.</p>
+         <p>Submit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used, Submit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used to generate the hash.</p>
       </div>
       <div class="hash_flag">
          <!--passwd-->
