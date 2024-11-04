@@ -55,7 +55,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          <p>Submit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used, Submit the text that can generate the following hashes, tools like hashcat are recommended you must identify the hash algorithm used to generate the hash.</p>
       </div>
       <div class="hash_flag">
-         <!--passwd-->
          <form action="index.php" method="post">
             <h2>Hash1: [30274c47903bd1bac7633bbf09743149ebab805f]</h2>
             <input type="hidden" name="hash" value="30274c47903bd1bac7633bbf09743149ebab805f">
@@ -68,7 +67,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          </form>
       </div>
       <div class="hash_flag">
-         <!--easy-->
          <form action="index.php" method="post">
             <h2>Hash2: [48bb6e862e54f2a795ffc4e541caed4d]</h2>
             <input type="hidden" name="hash" value="48bb6e862e54f2a795ffc4e541caed4d">
@@ -82,7 +80,6 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
       </div>
       <div class="hash_flag">
          <form action="index.php" method="post">
-            <!--cracked-->
             <h2>Hash3: [615b26545c0f17635b6f0d0d70c0c8d5c9405881c00f972627a26bf129be51bb]</h2>
             <input type="hidden" name="hash" value="615b26545c0f17635b6f0d0d70c0c8d5c9405881c00f972627a26bf129be51bb">
             <input type="hidden" name="hashn" value="3">
@@ -94,10 +91,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
          </form>
       </div>
       <div class="hash_flag">
-         <!--saltedhash-->
          <form action="index.php" method="post">
-            <h2>Hash4: [ed91a1955e7e7ab5ab760f21dcb0f58c91d47214330dc9e00cb9339ebc3b0c2f]</h2>
-            <input type="hidden" name="hash" value="ed91a1955e7e7ab5ab760f21dcb0f58c91d47214330dc9e00cb9339ebc3b0c2f">
+            <h2>Hash4: [ef821850d63347ef041056ec9c3b8e66e29a20f61b175ad7cac26c834738469e]</h2>
+            <input type="hidden" name="hash" value="ef821850d63347ef041056ec9c3b8e66e29a20f61b175ad7cac26c834738469e">
             <input type="hidden" name="hashn" value="4">
             <input type="text" name="flag" placeholder="Flag">
             <input type="submit" value="Check">
